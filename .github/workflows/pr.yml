@@ -39,5 +39,4 @@ jobs:
         uses: actions/setup-go@v4.0.0
 
       - name: Go test
-        run: go test
-        
+        run: make test
