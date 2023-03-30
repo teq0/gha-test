@@ -1,0 +1,12 @@
+openapi: '3.0.2'
+info:
+  title: ChilliGPT
+  version: '1.0'
+servers:
+  - url: https://chilligpt.teq0.com/v1
+paths:
+  /health:
+    get:
+      responses:
+        '200':
+          description: OK
