@@ -10,3 +10,9 @@ paths:
       responses:
         '200':
           description: OK
+  /plants:
+    get:
+      responses:
+        '200':
+          description: Yep
+          
